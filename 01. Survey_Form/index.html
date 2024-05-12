@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>project1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <body>
+        <h1 id="title">Survey Form</h1>
+        <p id="description"> Thank you for filling this survey form</p>
+        <div class="form">
+        <form id="survey-form">
+            <label id="name-label">Name</label>
+            <br>
+            <input type="text" id="name" placeholder="Enter you name" required>
+            <br><br>
+            <label id="email-label">Email</label>
+            <br>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <br><br>
+            <label id="number-label">Age</label>
+            <br>
+            <input type="number" id="number" min="16" max="100" placeholder="age">
+            <br><br>
+            <p>Was this form helpful?</p>
+            <input type="radio" id="Yes" name="options" value="Yes">
+            <label for="Yes">Yes</label>
+            <input type="radio" id="No" name="options" value="No">
+            <label for="No">No</label>
+            <br><br>
+            <label>Which is your favourite type of Tech</label>
+            <br>
+            <select id="dropdown">
+                <option value="Full Stack Development">Full Stack Development</option>
+                <option value="Frontend Development">Frontend Development</option>
+                <option value="Backend Development">Backend Development</option>
+                <option value="Android Development">Android Development</option>
+            </select>
+            <br>
+            <p>Favourite Languages:</p>
+            <input type="checkbox" id="checkbox1" value="Java">
+            <label for="checkbox1">Java</label><br>
+            <input type="checkbox" id="checkbox2" value="C">
+            <label for="checkbox2">C</label><br>
+            <input type="checkbox" id="checkbox3" value="CPP">
+            <label for="checkbox3">CPP</label><br>
+            <input type="checkbox" id="checkbox4" value="Python">
+            <label for="checkbox4">Python</label><br>
+            <input type="checkbox" id="checkbox5" value="C#">
+            <label for="checkbox5">C#</label><br>
+            <br>
+            <p>Any Suggestions</p>
+            <textarea id="textarea" rows="4" cols="50" placeholder="Open to feedback"></textarea>
+            <br><br>
+            <button id="submit" value="submit">Submit</button>
+            </div>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,48 @@
+body {
+    justify-content: center;
+    background-image: url(Survey_image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+} 
+
+form {
+    border-style: solid;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(54, 97, 182);
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+#title,
+#description {
+    justify-content: center;
+    text-align: center;
+}
+
+#name,
+#email,
+#number,
+#dropdown {
+    margin-top: 3px;
+    width: 99%;
+}
+
+#textarea {
+    width: 100%;
+    resize: none;
+}
+
+#description {
+    font-size: 20px;
+}
+
+#submit {
+    width: 100%;
+    font-size: 15px;
+}
